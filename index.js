@@ -61,7 +61,7 @@ async function init() {
                 map[guessParts[i]]--;
             }
         }
-        console.log(map);
+        // console.log(map);
         for (let i = 0; i < ANSWER_LENGTH; i++) {
             if (guessParts[i] == wordParts[i]) {
                 // do nothing, already did it
