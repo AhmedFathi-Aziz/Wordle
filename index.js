@@ -15,7 +15,7 @@ async function init() {
     let done = false;
     isLoading = false;
     setLoading(false);
-    console.log(word);
+    // console.log(word);
 
     function addLetter(letter) {
         if (currentGuess.length < ANSWER_LENGTH) {
